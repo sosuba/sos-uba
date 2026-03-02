@@ -14,7 +14,7 @@ import {
   ShieldCheck,
 } from "lucide-react";
 
-type Priority = "Dipirona" | "Amoxicilina" | "Glibenclamida" | "Cimegripe" | "";
+type Priority = "Amoxicilina 250mg" | "Amoxicilina 500mg" | "Glibenclamida" | "Cimegripe" | "";
 
 interface FormData {
   institutionName: string;
@@ -139,13 +139,13 @@ export default function RegisterForm() {
         </div>
 
         <a
-          href="https://wa.me/5532999736142"
+          href="https://wa.me/5532999992333"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-2 rounded-xl bg-green-500 px-5 py-3 text-sm font-bold text-white shadow transition-all hover:bg-green-600 active:scale-95"
         >
           <MessageCircle className="h-4 w-4" />
-          Falar com Anne no WhatsApp
+          Falar com Lara no WhatsApp
         </a>
 
         <button
@@ -242,8 +242,8 @@ export default function RegisterForm() {
           }`}
         >
           <option value="" disabled>Selecione o medicamento prioritário</option>
-          <option value="Dipirona">Dipirona</option>
-          <option value="Amoxicilina">Amoxicilina</option>
+          <option value="Amoxicilina 250mg">Amoxicilina 250mg</option>
+          <option value="Amoxicilina 500mg">Amoxicilina 500mg</option>
           <option value="Glibenclamida">Glibenclamida</option>
           <option value="Cimegripe">Cimegripe</option>
         </select>
@@ -310,13 +310,13 @@ export default function RegisterForm() {
       <div className="flex flex-col items-center gap-2 pt-1">
         <p className="text-xs text-gray-400">Dúvidas? Fale diretamente com nossa equipe:</p>
         <a
-          href="https://wa.me/5532999736142"
+          href="https://wa.me/5532999992333"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-2 rounded-xl border border-green-200 bg-green-50 px-4 py-2.5 text-sm font-semibold text-green-700 transition-all hover:bg-green-100 active:scale-95"
         >
           <MessageCircle className="h-4 w-4" />
-          Falar com Anne no WhatsApp
+          Falar com Lara no WhatsApp
         </a>
       </div>
 

@@ -83,7 +83,7 @@ export default function Home() {
             <div>
               <h3 className="font-bold text-gray-800">Medicamentos Essenciais</h3>
               <p className="mt-1 text-sm leading-relaxed text-gray-500">
-                Dipirona, Amoxicilina, Glibenclamida e Cimegripe para atender
+                Amoxicilina 250mg, Amoxicilina 500mg, Glibenclamida e Cimegripe para atender
                 as necessidades mais urgentes das vítimas.
               </p>
             </div>
@@ -134,13 +134,13 @@ export default function Home() {
               <MessageCircle className="h-7 w-7 text-green-600" />
             </div>
             <div>
-              <p className="text-lg font-extrabold text-gray-900">Anne Abreu</p>
+              <p className="text-lg font-extrabold text-gray-900">Lara Abreu</p>
               <a
-                href="tel:+5532999736142"
+                href="tel:+5532999992333"
                 className="mt-0.5 flex items-center justify-center gap-1.5 text-sm text-gray-500 hover:text-green-600 transition-colors"
               >
                 <Phone className="h-3.5 w-3.5" />
-                (32) 99973-6142
+                (32) 99999-2333
               </a>
             </div>
             <p className="max-w-xs text-sm leading-relaxed text-gray-500">
@@ -148,13 +148,13 @@ export default function Home() {
               coordenadora pelo WhatsApp.
             </p>
             <a
-              href="https://wa.me/5532999736142"
+              href="https://wa.me/5532999992333"
               target="_blank"
               rel="noopener noreferrer"
               className="flex w-full max-w-xs items-center justify-center gap-2 rounded-xl bg-green-500 px-6 py-3.5 text-sm font-bold text-white shadow-md transition-all hover:bg-green-600 active:scale-95"
             >
               <MessageCircle className="h-4 w-4" />
-              Falar com Anne no WhatsApp
+              Falar com Lara no WhatsApp
             </a>
           </div>
         </div>
@@ -171,11 +171,11 @@ export default function Home() {
               </span>
             </div>
             <a
-              href="tel:+5532999736142"
+              href="tel:+5532999992333"
               className="flex items-center gap-1.5 text-sm text-gray-500 hover:text-blue-600 transition-colors"
             >
               <Phone className="h-3.5 w-3.5" />
-              (32) 99973-6142 — Anne Abreu
+              (32) 99999-2333 — Lara Abreu
             </a>
           </div>
 

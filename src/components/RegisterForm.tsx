@@ -33,7 +33,7 @@ interface FormErrors {
 }
 
 const WEBHOOK_URL =
-  "https://script.google.com/macros/s/AKfycbyIAg-q2S-myx9DT6Bu8pGqVzY3rcGthGM9F1--rEGWqgEHGjI8ctUsSMBxQFy2vjZ4/exec";
+  "https://script.google.com/macros/s/AKfycby-XpxBltsUkwUKdOLJfrV2P3Hq1HOBQQrciGrHg1WX2f9coNGJZMQ4p6rB4j3_xyCq/exec";
 
 const EMPTY_FORM: FormData = {
   institutionName: "",
@@ -129,12 +129,10 @@ export default function RegisterForm() {
         </div>
         <div>
           <h3 className="text-xl font-extrabold text-gray-900">
-            Solicitação enviada com sucesso!
+            Cadastro realizado com sucesso!
           </h3>
           <p className="mt-2 text-sm leading-relaxed text-gray-500">
-            Os dados já estão na nossa planilha de triagem.
-            <br />
-            Em breve nossa equipe entrará em contato para agendar a entrega.
+            Verifique seu e-mail ou aguarde nosso contato.
           </p>
         </div>
 
@@ -299,10 +297,9 @@ export default function RegisterForm() {
       <div className="flex items-start gap-2 rounded-xl border border-blue-100 bg-blue-50 px-4 py-3">
         <ShieldCheck className="mt-0.5 h-4 w-4 shrink-0 text-blue-500" />
         <p className="text-xs leading-relaxed text-blue-800">
-          <strong>Atenção:</strong> Após o cadastro, nossa equipe entrará em
-          contato para validar as informações e informar se os itens serão{" "}
-          <strong>entregues na instituição</strong> ou se deverão ser{" "}
-          <strong>retirados em nosso centro de distribuição</strong>.
+          <strong>Atenção:</strong> Após o cadastro, entraremos em contato
+          para informar se a modalidade será{" "}
+          <strong>entrega</strong> ou <strong>retirada</strong>.
         </p>
       </div>
 
